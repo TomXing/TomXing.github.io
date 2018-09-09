@@ -15,19 +15,17 @@
 
 
 
-<meta name="description" content="我的图片集 这是我参加DJI举办的Robomastershttps://www.robomaster.com/zh-CN。最后从成都去北京比赛虽然我们没有取得很好的成绩，但是这一年我们干了很多事，累，回想起来还是挺好的！">
+<meta name="description" content="C语言考试及学习常用的功能函数 计算S=1- 1/2 + 1/3 +…-1/2*ndouble fun(int n) { int i; double sum=0.0; if (n&amp;gt;1&amp;amp;&amp;amp;n&amp;lt;=100){   for(i=1; i&amp;lt;=n; i++)     sum+=1.0/(2*i-1)-1.0/(2*i);      //sum =sum +(1/(">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TomKing">
-<meta property="og:url" content="http://yoursite.com/2018/09/09/Robomasters/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/09/09/C语言学习/index.html">
 <meta property="og:site_name" content="TomKing">
-<meta property="og:description" content="我的图片集 这是我参加DJI举办的Robomastershttps://www.robomaster.com/zh-CN。最后从成都去北京比赛虽然我们没有取得很好的成绩，但是这一年我们干了很多事，累，回想起来还是挺好的！">
+<meta property="og:description" content="C语言考试及学习常用的功能函数 计算S=1- 1/2 + 1/3 +…-1/2*ndouble fun(int n) { int i; double sum=0.0; if (n&amp;gt;1&amp;amp;&amp;amp;n&amp;lt;=100){   for(i=1; i&amp;lt;=n; i++)     sum+=1.0/(2*i-1)-1.0/(2*i);      //sum =sum +(1/(">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/photo/p_1.jpg">
-<meta property="og:updated_time" content="2018-09-09T10:08:53.762Z">
+<meta property="og:updated_time" content="2018-09-09T10:12:14.862Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TomKing">
-<meta name="twitter:description" content="我的图片集 这是我参加DJI举办的Robomastershttps://www.robomaster.com/zh-CN。最后从成都去北京比赛虽然我们没有取得很好的成绩，但是这一年我们干了很多事，累，回想起来还是挺好的！">
-<meta name="twitter:image" content="http://yoursite.com/photo/p_1.jpg">
+<meta name="twitter:description" content="C语言考试及学习常用的功能函数 计算S=1- 1/2 + 1/3 +…-1/2*ndouble fun(int n) { int i; double sum=0.0; if (n&amp;gt;1&amp;amp;&amp;amp;n&amp;lt;=100){   for(i=1; i&amp;lt;=n; i++)     sum+=1.0/(2*i-1)-1.0/(2*i);      //sum =sum +(1/(">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -257,11 +255,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-Robomasters" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-C语言学习" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2018/09/09/Robomasters/" class="article-date">
-      <time datetime="2018-09-08T16:52:27.435Z" itemprop="datePublished">2018-09-09</time>
+      <a href="/2018/09/09/C语言学习/" class="article-date">
+      <time datetime="2018-09-09T09:19:14.940Z" itemprop="datePublished">2018-09-09</time>
 </a>
 
 
@@ -275,9 +273,65 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>﻿﻿﻿﻿</p>
-<h2 id="我的图片集"><a href="#我的图片集" class="headerlink" title="我的图片集"></a><strong>我的图片集</strong></h2><p> 这是我参加DJI举办的Robomasters<a href="https://www.robomaster.com/zh-CN" target="_blank" rel="noopener">https://www.robomaster.com/zh-CN</a>。最后从成都去北京比赛虽然我们没有取得很好的成绩，但是这一年我们干了很多事，累，回想起来还是挺好的！</p>
-<p><img src="/photo/p_1.jpg" alt="战车"></p>
+        <p>﻿﻿﻿﻿﻿</p>
+<h1 id="C语言考试及学习"><a href="#C语言考试及学习" class="headerlink" title="C语言考试及学习"></a>C语言考试及学习</h1><h2 id="常用的功能函数"><a href="#常用的功能函数" class="headerlink" title="常用的功能函数"></a>常用的功能函数</h2><ol>
+<li><h4 id="计算S-1-1-2-1-3-…-1-2-n"><a href="#计算S-1-1-2-1-3-…-1-2-n" class="headerlink" title="计算S=1- 1/2 + 1/3 +…-1/2*n"></a>计算S=1- 1/2 + 1/3 +…-1/2*n</h4><pre><code>double fun(int n)
+{
+int i;
+double sum=0.0;
+if (n&gt;1&amp;&amp;n&lt;=100){
+  for(i=1; i&lt;=n; i++)
+    sum+=1.0/(2*i-1)-1.0/(2*i);      //sum =sum +(1/(2*i-1)-1/(2*i))
+}
+return sum;
+}
+</code></pre><a id="more"></a></li>
+<li><h4 id="将a、b中的两个两位正整数合并形成一个新的整数放在c中。"><a href="#将a、b中的两个两位正整数合并形成一个新的整数放在c中。" class="headerlink" title="将a、b中的两个两位正整数合并形成一个新的整数放在c中。"></a>将a、b中的两个两位正整数合并形成一个新的整数放在c中。</h4><p>合并的方式是：将a中的十位和个位数依次放在变量c的十位和千位上，b中的十位和个位数依次放在变量c的个位和百位上。</p>
+<pre><code>void fun(int a, int b, long *c)                  //*c为c指针变量的内容，*为取内容运算符。
+{
+*c=(a%10)*1000+(b%10)*100+(a/10)*10+(b/10);      //取余，取整
+}
+</code></pre></li>
+<li><h4 id="求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。"><a href="#求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。" class="headerlink" title="求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。"></a>求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。</h4><pre><code>long fun(int x,int y,long *p)    
+{  int i;    
+   long t=1;    
+   for(i=1; i&lt;=y; i++)    //用以用 pow(x,y)函数
+      t=t*x;    
+     *p=t;    
+   t=t%1000;    
+   return t;    
+}
+</code></pre></li>
+<li><h4 id="将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。"><a href="#将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。" class="headerlink" title="将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。"></a>将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。</h4><pre><code>char* fun(char tt[])
+{
+  int i;
+  for(i = 0; tt[i]; i++)
+    if((&apos;a&apos;&lt;=tt[i])&amp;&amp;(tt[i]&lt;=&apos;z&apos;))
+      tt[i]-=32;          //小写转换成大写字母则ASCII减32
+  return(tt);
+}
+</code></pre></li>
+<li><h4 id="保留一个实数的两位小数，从第三位实现四舍五入。例如输入12-3785，处理后输出12-38。需要注意的是不允许直接采用输出控制以”-m-nd”的形式来得到输出结果。"><a href="#保留一个实数的两位小数，从第三位实现四舍五入。例如输入12-3785，处理后输出12-38。需要注意的是不允许直接采用输出控制以”-m-nd”的形式来得到输出结果。" class="headerlink" title="保留一个实数的两位小数，从第三位实现四舍五入。例如输入12.3785，处理后输出12.38。需要注意的是不允许直接采用输出控制以”%m.nd”的形式来得到输出结果。"></a>保留一个实数的两位小数，从第三位实现四舍五入。例如输入12.3785，处理后输出12.38。需要注意的是不允许直接采用输出控制以”%m.nd”的形式来得到输出结果。</h4><p>double fun(double x)<br>{<br>  x=(int)(x<em>100+0.5);       /</em>移动小数点<em>/<br>  x/=100;              /</em>舍掉小数点后两位*/<br>  return x;<br>  }</p>
+</li>
+<li><h4 id="输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。"><a href="#输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。" class="headerlink" title="输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。"></a>输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。</h4><pre><code>int fun(char ch) {
+   int d;
+   d=ch-&apos;0&apos;;           //也可以用 d = ch-48;
+   return d;
+}
+</code></pre></li>
+<li><h4 id="输入一个两位整数，将其个位和十位改换位置，然后输出。"><a href="#输入一个两位整数，将其个位和十位改换位置，然后输出。" class="headerlink" title="输入一个两位整数，将其个位和十位改换位置，然后输出。"></a>输入一个两位整数，将其个位和十位改换位置，然后输出。</h4><p> int fun(int m)<br> {<br>  int n;<br>   n=m%10; /<em>取余获得个位数</em>/<br>   m=n<em>10+m/10; /</em>十位个位交换*/<br>  return m;<br> }</p>
+</li>
+<li><h4 id="计算n"><a href="#计算n" class="headerlink" title="计算n!"></a>计算n!</h4><pre><code>double fun (int n)
+{double result = 1.0 ;
+/************found************/
+  if (n==0)
+    return 1.0 ;
+  while(n &gt;1 &amp;&amp; n &lt; 170)
+    result *=n--;
+  return result ;
+}
+</code></pre></li>
+</ol>
 
       
     </div>
@@ -286,13 +340,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2018/09/09/Robomasters/"></a></p>
+        <p><span>本文标题:</span><a href="/2018/09/09/C语言学习/"></a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">唐名</a></p>
-        <p><span>发布时间:</span>2018-09-09, 00:52:27</p>
-        <p><span>最后更新:</span>2018-09-09, 18:08:53</p>
+        <p><span>发布时间:</span>2018-09-09, 17:19:14</p>
+        <p><span>最后更新:</span>2018-09-09, 18:12:14</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2018/09/09/Robomasters/" title="">http://yoursite.com/2018/09/09/Robomasters/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/09/09/Robomasters/　　作者: 唐名" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2018/09/09/C语言学习/" title="">http://yoursite.com/2018/09/09/C语言学习/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/09/09/C语言学习/　　作者: 唐名" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -304,15 +358,9 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2018/09/09/C语言学习/">
-                    
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2018/09/07/我的第一篇/">
+                <a href="/2018/09/09/Robomasters/">
                     
                 </a>
             </div>
@@ -325,7 +373,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#我的图片集"><span class="toc-number">1.</span> <span class="toc-text">我的图片集</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C语言考试及学习"><span class="toc-number">1.</span> <span class="toc-text">C语言考试及学习</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#常用的功能函数"><span class="toc-number">1.1.</span> <span class="toc-text">常用的功能函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#计算S-1-1-2-1-3-…-1-2-n"><span class="toc-number">1.1.0.1.</span> <span class="toc-text">计算S=1- 1/2 + 1/3 +…-1/2*n</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#将a、b中的两个两位正整数合并形成一个新的整数放在c中。"><span class="toc-number">1.1.0.2.</span> <span class="toc-text">将a、b中的两个两位正整数合并形成一个新的整数放在c中。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。"><span class="toc-number">1.1.0.3.</span> <span class="toc-text">求整数x的y次方的低3位值。例如，整数5的6次方为15625，此值的低3位值为625。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。"><span class="toc-number">1.1.0.4.</span> <span class="toc-text">将tt所指字符串中的小写字母都改为对应的大写字母，其他字符不变。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#保留一个实数的两位小数，从第三位实现四舍五入。例如输入12-3785，处理后输出12-38。需要注意的是不允许直接采用输出控制以”-m-nd”的形式来得到输出结果。"><span class="toc-number">1.1.0.5.</span> <span class="toc-text">保留一个实数的两位小数，从第三位实现四舍五入。例如输入12.3785，处理后输出12.38。需要注意的是不允许直接采用输出控制以”%m.nd”的形式来得到输出结果。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。"><span class="toc-number">1.1.0.6.</span> <span class="toc-text">输入一个字符型的数字，并转换成相应的整数输出。如读入字符’8’，转换成整数8输出。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#输入一个两位整数，将其个位和十位改换位置，然后输出。"><span class="toc-number">1.1.0.7.</span> <span class="toc-text">输入一个两位整数，将其个位和十位改换位置，然后输出。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#计算n"><span class="toc-number">1.1.0.8.</span> <span class="toc-text">计算n!</span></a></li></ol></li></ol></li></ol></li></ol>
         
     </div>
     <style>
@@ -381,15 +429,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2018/09/09/C语言学习/" title="上一篇: ">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2018/09/07/我的第一篇/" title="下一篇: ">
+            <a href="/2018/09/09/Robomasters/" title="下一篇: ">
                 <i class="fa fa-angle-right"></i>
             </a>
         
